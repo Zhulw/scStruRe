@@ -1,0 +1,11 @@
+# Environment reported in the manuscript: PyTorch 2.1.2 with CUDA 12.1.
+torch==2.1.2
+
+# Direct runtime dependencies. Upper bounds avoid incompatible major releases.
+numpy>=1.24,<2.0
+pandas>=1.5,<3.0
+scipy>=1.10,<2.0
+scikit-learn>=1.2,<2.0
+scanpy>=1.9.6,<2.0
+anndata>=0.9,<0.11
+h5py>=3.8,<4.0
